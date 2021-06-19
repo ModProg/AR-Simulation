@@ -228,6 +228,7 @@ GameObject:
   - component: {fileID: 806778815}
   - component: {fileID: 806778814}
   - component: {fileID: 806778818}
+  - component: {fileID: 806778817}
   m_Layer: 0
   m_Name: ArCamRightTexture
   m_TagString: Untagged
@@ -242,7 +243,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 806778813}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a2a9c34df4095f47b9ca8f975175f5b, type: 3}
   m_Name: 
@@ -310,6 +311,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &806778817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806778813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 972bd9798887c5248bf9693a1479abc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tracked: {fileID: 1659181484}
+  delay: 0.2
+  progress: 0
 --- !u!114 &806778818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -429,6 +445,7 @@ GameObject:
   - component: {fileID: 1149540590}
   - component: {fileID: 1149540589}
   - component: {fileID: 1149540592}
+  - component: {fileID: 1149540593}
   m_Layer: 0
   m_Name: ArCamLeftTexture
   m_TagString: Untagged
@@ -443,7 +460,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1149540588}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a2a9c34df4095f47b9ca8f975175f5b, type: 3}
   m_Name: 
@@ -524,6 +541,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fps: 30
+--- !u!114 &1149540593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149540588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 972bd9798887c5248bf9693a1479abc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tracked: {fileID: 861343392}
+  delay: 0.2
+  progress: 0
 --- !u!1 &1185684387
 GameObject:
   m_ObjectHideFlags: 0
@@ -993,6 +1025,7 @@ GameObject:
   - component: {fileID: 1848796794}
   - component: {fileID: 1848796793}
   - component: {fileID: 1848796792}
+  - component: {fileID: 1848796796}
   m_Layer: 4
   m_Name: Cube
   m_TagString: Untagged
@@ -1076,6 +1109,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1848796796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848796791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 845d945b21267c74fa2590e554c011ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
 --- !u!1 &2023518520
 GameObject:
   m_ObjectHideFlags: 0
