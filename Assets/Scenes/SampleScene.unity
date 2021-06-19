@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 806778816}
   - component: {fileID: 806778815}
   - component: {fileID: 806778814}
-  - component: {fileID: 806778817}
+  - component: {fileID: 806778818}
   m_Layer: 0
   m_Name: ArCamRightTexture
   m_TagString: Untagged
@@ -310,18 +310,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &806778817
+--- !u!114 &806778818
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 806778813}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34573813852b80740bb9d64a521f0234, type: 3}
+  m_Script: {fileID: 11500000, guid: 6321f923d5566014a9cc5397c6769987, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fps: 30
 --- !u!1 &861343389
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,6 +428,7 @@ GameObject:
   - component: {fileID: 1149540591}
   - component: {fileID: 1149540590}
   - component: {fileID: 1149540589}
+  - component: {fileID: 1149540592}
   m_Layer: 0
   m_Name: ArCamLeftTexture
   m_TagString: Untagged
@@ -509,6 +511,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1149540592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149540588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6321f923d5566014a9cc5397c6769987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fps: 30
 --- !u!1 &1185684387
 GameObject:
   m_ObjectHideFlags: 0
